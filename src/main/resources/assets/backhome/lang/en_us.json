@@ -1,0 +1,13 @@
+{
+    "item.backhome.traveling_fragment": "Fragment of Traveling",
+
+    "tooltip.backhome.items.traveling_fragment.lore": "This fragment radiates an ancient unexplored energy signature. This energy can be utilized using a monument of traveling. Upon utilization the energy pulses to immeasurable heights that affects the location of the one using it. After utilization the fragment is unstable and cannot be used for a while.",
+    "tooltip.backhome.items.traveling_fragment.hold_shift": "\u00A78Discover item lore with \u00A7e\u00A7oSHIFT",
+    "tooltip.backhome.items.traveling_fragment.tooltip": "Right-click to open a GUI. Selecting a menu entry teleports you to the saved location and sets the item on cooldown (20 seconds).",
+
+    "item.backhome.traveling_sound": "Traveling Sound",
+
+    "sound.traveling_sound.subtitle": "Energy charging",
+
+    "gui.backhome.fragment_gui.title": "Monuments of Traveling"
+}

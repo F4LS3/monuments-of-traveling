@@ -1,0 +1,12 @@
+{
+  "traveling_sound": {
+    "category": "item",
+    "subtitle": "sound.traveling_sound.subtitle",
+    "sounds": [
+      {
+        "name": "backhome:item/traveling_sound",
+        "stream": true
+      }
+    ]
+  }
+}

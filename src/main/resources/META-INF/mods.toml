@@ -1,0 +1,12 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="backhome" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="BackHome" #mandatory
+displayURL="https://f4ls3.dev" #optional
+logoFile="backhome.png" #optional
+credits="I got the idea for this mod from a reddit post in the r/feedthebeast subreddit" #optional
+authors="f4ls3" #optional
+description="The mod adds an item that allows you to set a home point that you can teleport to with the same item. The home point can be re-set"
