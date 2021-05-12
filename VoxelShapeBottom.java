@@ -1,0 +1,1 @@
+VoxelShapes.combineAndSimplify(VoxelShapes.combineAndSimplify(Block.makeCuboidShape(2, 2, 2, 14, 3, 14), VoxelShapes.combineAndSimplify(Block.makeCuboidShape(1, 1, 1, 15, 2, 15), Block.makeCuboidShape(0, 0, 0, 16, 1, 16), IBooleanFunction.BASE), IBooleanFunction.BASE), Block.makeCuboidShape(3, 3, 3, 13, 14, 13), IBooleanFunction.OR)

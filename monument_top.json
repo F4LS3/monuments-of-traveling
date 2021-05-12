@@ -1,0 +1,76 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/chiseled_polished_blackstone",
+		"1": "block/polished_blackstone",
+		"particle": "block/polished_blackstone"
+	},
+	"elements": [
+		{
+			"from": [2, 11, 2],
+			"to": [14, 12, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 1], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 12, 1], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 12, 1], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 12, 12], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 12, 1],
+			"to": [15, 13, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 14, 1], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 14, 1], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 14, 14], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 13, 0],
+			"to": [16, 14, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 1], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 1], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [13, 11, 13],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [0, 0, 0],
+			"children": [
+				{
+					"name": "base",
+					"origin": [0, 0, 0],
+					"children": [0, 1, 2]
+				},
+				{
+					"name": "pillar",
+					"origin": [0, 0, 0],
+					"children": [3]
+				}
+			]
+		}
+	]
+}

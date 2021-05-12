@@ -45,7 +45,7 @@ public class TravelingFragmentItem extends UsableItem {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity player, Hand hand) {
 
-        player.playSound(Sounds.TRAVELING_SOUND.get(), SoundCategory.VOICE, 1.0f, 1.0f);
+        player.playSound(Sounds.TRAVELING_SOUND.get(), SoundCategory.NEUTRAL, 1.0f, 1.0f);
         
 
         // TODO: Open GUI and display all registered monuments of traveling as buttons
